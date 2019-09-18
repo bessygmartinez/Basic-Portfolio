@@ -3,6 +3,15 @@ body {
     background-image: url("../images/floralbg.png");
 }
 
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    width: 20%;
+    float: left;
+}
+
 td {
     margin: 15px;
   }
