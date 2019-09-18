@@ -8,7 +8,6 @@ body {
 a {
     color: #999999;
     text-decoration: none;
-    text-indent: 10px;
     padding: 10px;
 }
 
@@ -36,18 +35,21 @@ nav {
     position: absolute;
     bottom: 0;
     margin-bottom: auto;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.menu {
+    float: right;
+    margin-right: 10%;
+    padding: 50px;
+    font-size: 15px;
+    color: #cccccc;
 }
 
 .clearfix {
     clear: both;
     overflow: auto;
-}
-
-.menu {
-    float: right;
-    padding: 50px;
-    font-size: 15px;
-    color: #cccccc;
 }
 
 td {
