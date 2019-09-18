@@ -3,6 +3,19 @@ body {
     background-image: url("../images/floralbg.png");
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     line-height: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: #777777;
+    font-size: 14px;
+    text-align: justify;
 }
 
 a {
@@ -14,6 +27,24 @@ a {
 a:hover {
     color: #4aaaa5;
     text-decoration: overline;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    height: 1.5px;
+    background: #cccccc;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -29,19 +60,18 @@ nav {
 .navheading {
     color: white;
     background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 20%;
+    width: 25%;
     float: left;
     position: absolute;
     bottom: 0;
     margin-bottom: auto;
-    margin-left: 10%;
+    margin-left: 16.5%;
     text-align: center;
 }
 
 .menu {
     float: right;
-    margin-right: 10%;
+    margin-right: 13%;
     padding: 50px;
     font-size: 15px;
     color: #cccccc;
@@ -52,9 +82,28 @@ nav {
     overflow: auto;
 }
 
+.mainbody {
+    background-color: #ffffff;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1.5px #e7e6e6;
+    padding: 30px;
+    flex: 1 0 auto;
+}
+
+.aboutimg {
+    float: left;
+    margin: 0 20px 20px 0;
+    height: 300px;
+    weight: 300px;
+}
+
 td {
     margin: 15px;
   }
+
   .tblimg {
     position: relative;
     display: inline-block;
@@ -70,4 +119,15 @@ td {
     width: 100%;
     text-align: center;
     background-color: darkgrey;
+  }
+
+  .stickyfooter {
+      background-color: #666666;
+      color: #cccccc;
+      font-size: 10px;
+      text-align: center;
+      border-top: solid 8px #4aaaa5;
+      padding-top: 20px;
+      margin-top: 30px;
+      flex-shrink: 0;
   }
