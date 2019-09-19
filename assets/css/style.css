@@ -160,3 +160,12 @@ td {
       margin: 0;
       cursor: pointer;
   }
+
+  .portimg {
+      width: 200px;
+      height: 200px;
+  }
+
+  .portimg:hover {
+      opacity: 0.7;
+  }
