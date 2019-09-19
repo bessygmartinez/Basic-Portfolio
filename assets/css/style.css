@@ -29,6 +29,16 @@ a:hover {
     text-decoration: overline;
 }
 
+.portlink {
+    color: #666666;
+    font-weight: bold;
+}
+
+.portlink:hover {
+    background-color: #666666;
+    text-decoration: none;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
