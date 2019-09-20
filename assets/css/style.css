@@ -163,6 +163,10 @@ td {
       cursor: pointer;
   }
 
+  .submitbtn:hover {
+      opacity: 0.80;
+  }
+
   .portimg {
       width: 200px;
       height: 200px;
