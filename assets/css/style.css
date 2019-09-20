@@ -43,6 +43,20 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.title {
+    color: white;
+    background-color: #4aaaa5;
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-left: 17.5%;
+    text-align: center;
+    line-height: 80px;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -65,18 +79,6 @@ nav {
     margin: 0;
     padding: 0;
     border-bottom: solid 1.5px #cccccc;
-}
-
-.navheading {
-    color: white;
-    background-color: #4aaaa5;
-    width: 25%;
-    float: left;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: auto;
-    margin-left: 17.5%;
-    text-align: center;
 }
 
 .menu {
