@@ -52,7 +52,7 @@ h1 {
     position: absolute;
     bottom: 0;
     margin-bottom: 0;
-    margin-left: 17.5%;
+    margin-left: 19.5%;
     text-align: center;
     line-height: 80px;
 }
@@ -67,7 +67,6 @@ hr {
     border: 0;
     height: 1.5px;
     background: #cccccc;
-    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -83,7 +82,7 @@ nav {
 
 .menu {
     float: right;
-    margin-right: 13.5%;
+    margin-right: 15.5%;
     padding: 50px;
     font-size: 15px;
     color: #cccccc;
@@ -100,6 +99,7 @@ nav {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
     border: solid 1.5px #e7e6e6;
     padding: 30px 30px 10px 30px;
     flex: 1 0 auto;
@@ -109,7 +109,7 @@ nav {
     float: left;
     margin: 0 20px 20px 0;
     height: 300px;
-    weight: 300px;
+    width: 300px;
 }
 
 td {
